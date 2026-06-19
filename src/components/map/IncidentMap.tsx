@@ -153,8 +153,8 @@ export default function IncidentMap({
                 <span>{popup.sequenceId}</span>
                 {popup.dueDate ? <small>{formatDate(popup.dueDate)}</small> : null}
               </div>
-              <h3>{popup.title}</h3>
-              <p>{popup.locationDescription}</p>
+              <h3 className="map-popup__title">{popup.title}</h3>
+              <p className="map-popup__location">{popup.locationDescription}</p>
               <div className="map-popup__badges">
                 <Badge
                   label={getPriorityLabel(popup.priority)}
@@ -165,7 +165,7 @@ export default function IncidentMap({
                   tone={getStatusVariant(popup.status)}
                 />
               </div>
-              <dl>
+              <dl className="map-popup__meta">
                 <div>
                   <dt>Categoria</dt>
                   <dd>{popup.type.name}</dd>

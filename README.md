@@ -4,11 +4,21 @@ Frontend application for incident management in construction projects, featuring
 
 ## Live Demo
 
-- Pending deployment
+https://spybee-frontend-technical-test.vercel.app
 
 ## Screenshots
 
-- To be added before final submission
+### Dashboard
+
+![Dashboard](docs/screenshots/dashboard.webp)
+
+### Create Incident
+
+![Create Incident](docs/screenshots/create-incident.webp)
+
+### Map Popup
+
+![Map Popup](docs/screenshots/map-popup.webp)
 
 ## Tech Stack
 
@@ -114,6 +124,17 @@ The application is organized as a client-heavy operational UI built on top of th
 - Active filter chips to improve operational clarity
 - Responsive refinements for desktop, tablet, and mobile breakpoints
 - Improved hover, selected, and focus-visible states across interactive UI elements
+
+## Recent UI Improvements
+
+- Dark neumorphic visual refinement
+- Improved Mapbox popup spacing and readability
+- Improved dark form controls
+- Refined primary button styling
+- Custom favicon support
+- Improved modal presentation
+- Dark-mode optimized calendar picker
+- Production deployment on Vercel
 
 ## Quality Checks
 

@@ -5,7 +5,9 @@ export const metadata: Metadata = {
   title: "Spybee Incidents",
   description: "Gestor de incidencias para proyecto de construccion",
   icons: {
-    icon: "/favicon.png",
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
