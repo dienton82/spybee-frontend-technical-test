@@ -1,0 +1,19 @@
+@mixin card-surface {
+  background: #1a1f28;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.04), 4px 4px 14px rgba(0, 0, 0, 0.52);
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == tablet {
+    @media (max-width: 1100px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == mobile {
+    @media (max-width: 720px) {
+      @content;
+    }
+  }
+}
