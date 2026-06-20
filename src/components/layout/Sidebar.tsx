@@ -41,7 +41,7 @@ export default function Sidebar({
           <strong>{openCount}</strong>
         </div>
         <div className="sidebar__summary-card">
-          <span>Criticas</span>
+          <span>Alta prioridad</span>
           <strong>{highPriorityCount}</strong>
         </div>
       </section>
