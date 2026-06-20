@@ -51,8 +51,23 @@ textarea {
   font: inherit;
 }
 
+button,
+input,
+select,
+textarea,
+a,
+[role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
 button {
   cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  outline-color: transparent;
 }
 
 .form-control,
